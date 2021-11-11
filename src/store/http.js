@@ -5,8 +5,7 @@ import moment from 'moment'
 import code from '../util/code'
 import _ from 'lodash'
 
-// const url = process.env.VUE_APP_API_URL
-const url = "/api"
+const url = process.env.VUE_APP_API_URL
 const token = process.env.VUE_APP_TOKEN
 
 console.log("flow.ci url:" + url)
